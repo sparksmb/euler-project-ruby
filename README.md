@@ -6,5 +6,6 @@ See https://projecteuler.net
 |ID|Problem|Status|
 | --- | --- | --- |
 |1|[Multiples of 3 and 5](https://github.com/sparksmb/euler-project-ruby/blob/master/problems/1.md)|solved|
+|1|[Even Fibonacci numbers](https://github.com/sparksmb/euler-project-ruby/blob/master/problems/2.md)|solved|
 
 
