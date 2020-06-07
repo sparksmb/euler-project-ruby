@@ -1,6 +1,6 @@
 Just another way to practice Ruby skills.
 
-See https::/projecteuler.net
+See https://projecteuler.net
 
 
 |ID|Problem|Status|
