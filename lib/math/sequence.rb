@@ -40,5 +40,13 @@ class Sequence
   def multiples_of(ints)
     @list.map{|n| n if ints.map{|i| (n%i).zero? }.count(true) > 0 }.compact
   end
+
+  def sorted_flat_uniq_list
+    Sequence.new(@list.flatten.uniq.sort)
+  end
+
+  def primes
+    @list.map{|n| n if Prime.prime?(n) }.compact
+  end
 end
 
