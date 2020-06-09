@@ -2,6 +2,7 @@
 
 require 'pry-byebug'
 require 'awesome_print'
-Dir.glob("./lib/**/*.rb"){|f| require f }
+
+require './config/boot.rb'
 
 Pry.start
