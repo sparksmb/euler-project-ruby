@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'pry-byebug'
+require 'awesome_print'
+Dir.glob("./lib/**/*.rb"){|f| require f }
+
+Pry.start
